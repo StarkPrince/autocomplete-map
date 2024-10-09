@@ -5,7 +5,7 @@ import { LoadScript } from '@react-google-maps/api';
 import React from 'react';
 import AddressInput from '../components/AddressInput';
 
-const libraries = ['places'];
+const libraries = ['places'] as unknown as any[];
 
 const MapsPage: React.FC = () =>
 {
